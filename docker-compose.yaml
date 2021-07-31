@@ -1,7 +1,10 @@
 ## For mulit-stage deployments 
+version: "3"
 
 services:
   web:
-    image:nginx
+    image: nginx
   database:
-    image:redis
+    image: redis
+    ports:
+    - 9595:80
