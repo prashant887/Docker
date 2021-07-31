@@ -1,0 +1,7 @@
+## For mulit-stage deployments 
+
+services:
+  web:
+    image:nginx
+  database:
+    image:redis
